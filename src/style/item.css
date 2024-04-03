@@ -1,0 +1,97 @@
+ 
+.Cart{
+    max-height: 350px;
+    min-height: 300px;
+    min-width: 200px;
+    max-width: 200px;
+    border: 1.5px solid rgb(209, 123, 32);
+    /* box-shadow: 2px 2px  2px black; */
+    box-shadow: yellowgreen 2px 2px 8px ;
+    margin: 10px;
+    
+    
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conatiner{
+    height: 260px;
+    width: 190px;
+}
+.imgConatiner{
+    height: 190px;
+    width: 180px;
+    margin: auto;
+    border: 0.2px soild transparent;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.title{
+   height: 50px;
+   width: 100%;
+   margin: auto;
+   padding: auto;
+   margin-top: 8px;
+   
+}
+.title>span{
+    /* margin: auto; */
+    height: 20px ;
+    font-size: 15px;
+   padding-left: 10px;
+   display: flex;
+
+}
+.title>span>strike{
+    font-size: 13px;
+    margin-left: 10px;
+}
+h5{
+    font-size: 19px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.shoping{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    background: linear-gradient(135deg,rgb(73, 73, 150),rgb(60, 60, 152));
+    color: white;
+}
+.shoping>i{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+.increase{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.increase>button{
+    height: 40px;
+    width:40px;
+    background-color: rgb(237, 91, 127);
+    color: black;
+    text-align: center;
+    text-align:center;
+    border: none;
+    outline: none;
+}
+.increase>div{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    text-align: center;
+}

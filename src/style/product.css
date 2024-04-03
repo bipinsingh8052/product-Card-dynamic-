@@ -1,0 +1,145 @@
+.mainconatiner{
+    height: 550px;
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+.conatiner{
+    /* height:500px;
+    width: 500px; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 90px; */
+    /* justify-content: end; */
+}
+.Listdata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+.conatiner>h5{
+    font-size: 38px;
+    /* height: 40px;
+    overflow: hidden; */
+    width: 400px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+form{
+    padding: 0px;
+    margin-top: 10px;
+        height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* padding-top: 20px; */
+}
+form>label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 170px;
+
+}
+
+input{
+    width: 300px;
+    height: 40px;
+}
+
+.productdetail{
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.productdetail>label{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.productdetail>input{
+    width: 300px;
+    height: 40px;
+}
+
+.price{
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.price>label{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.price>input{
+    width: 300px;
+    height: 30px;
+}
+.discountprice{
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.discountprice>label{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.discountprice>input{
+    width: 300px;
+    height: 30px;
+}
+
+.Img{
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Img>label{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.Img>input{
+    width: 300px;
+    height: 30px;
+}
+.submit{
+    height: 40px;
+    width: 90px;
+    /* border: 1px solid black; */
+
+}
+.submit>button{
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 12px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgb(231, 20, 20);
+    color: yellow;
+}
